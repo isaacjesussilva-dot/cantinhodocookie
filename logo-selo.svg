@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="600" height="600" role="img" aria-labelledby="t d">
+  <title id="t">Cantinho do Cookie - selo</title>
+  <desc id="d">Selo circular com biscoito ao centro e o nome em arco.</desc>
+  <defs>
+    
+    <radialGradient id="dough-s" cx="38%" cy="30%" r="78%">
+      <stop offset="0%" stop-color="#F3CD97" />
+      <stop offset="58%" stop-color="#DE9E57" />
+      <stop offset="100%" stop-color="#C4802F" />
+    </radialGradient>
+    <radialGradient id="chip-s" cx="34%" cy="28%" r="80%">
+      <stop offset="0%" stop-color="#5E3A22" />
+      <stop offset="100%" stop-color="#33190D" />
+    </radialGradient>
+    <radialGradient id="sheen-s" cx="30%" cy="22%" r="60%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.34" />
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0" />
+    </radialGradient>
+    <filter id="shadow-s" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="7" stdDeviation="9" flood-color="#20100A" flood-opacity="0.18" />
+    </filter>
+    <mask id="bite-s">
+      <rect x="-260" y="-260" width="520" height="520" fill="#fff" />
+      <circle cx="110" cy="-60" r="33" fill="#000" />
+      <circle cx="128" cy="-30" r="22" fill="#000" />
+      <circle cx="78" cy="-92" r="21" fill="#000" />
+    </mask>
+    
+    <path id="arc-top-s" d="M 130.26 202 A 196 196 0 0 1 469.74 202" fill="none" />
+    <path id="arc-bottom-s" d="M 130.26 398 A 196 196 0 0 0 469.74 398" fill="none" />
+  </defs>
+  <g transform="translate(300 300)">
+    <path d="M -18.97 -277.35 Q 0 -291 18.97 -277.35 Q 39.62 -288.29 56.56 -272.19 Q 78.51 -280.21 93.1 -261.95 Q 115.93 -266.91 127.9 -246.83 Q 151.2 -248.64 160.32 -227.12 Q 183.65 -225.73 189.75 -203.17 Q 212.67 -198.62 215.65 -175.44 Q 237.74 -167.81 237.53 -144.44 Q 258.37 -133.88 254.98 -110.76 Q 274.2 -97.45 267.69 -75 Q 284.91 -59.21 275.41 -37.85 Q 290.32 -19.86 278 -0 Q 290.32 19.86 275.41 37.85 Q 284.91 59.21 267.69 75 Q 274.2 97.45 254.98 110.76 Q 258.37 133.88 237.53 144.44 Q 237.74 167.81 215.65 175.44 Q 212.67 198.62 189.75 203.17 Q 183.65 225.73 160.32 227.12 Q 151.2 248.64 127.9 246.83 Q 115.93 266.91 93.1 261.95 Q 78.51 280.21 56.56 272.19 Q 39.62 288.29 18.97 277.35 Q 0 291 -18.97 277.35 Q -39.62 288.29 -56.56 272.19 Q -78.51 280.21 -93.1 261.95 Q -115.93 266.91 -127.9 246.83 Q -151.2 248.64 -160.32 227.12 Q -183.65 225.73 -189.75 203.17 Q -212.67 198.62 -215.65 175.44 Q -237.74 167.81 -237.53 144.44 Q -258.37 133.88 -254.98 110.76 Q -274.2 97.45 -267.69 75 Q -284.91 59.21 -275.41 37.85 Q -290.32 19.86 -278 -0 Q -290.32 -19.86 -275.41 -37.85 Q -284.91 -59.21 -267.69 -75 Q -274.2 -97.45 -254.98 -110.76 Q -258.37 -133.88 -237.53 -144.44 Q -237.74 -167.81 -215.65 -175.44 Q -212.67 -198.62 -189.75 -203.17 Q -183.65 -225.73 -160.32 -227.12 Q -151.2 -248.64 -127.9 -246.83 Q -115.93 -266.91 -93.1 -261.95 Q -78.51 -280.21 -56.56 -272.19 Q -39.62 -288.29 -18.97 -277.35 Z" fill="#3E2415" />
+  </g>
+  <circle cx="300" cy="300" r="262" fill="#FFF6E7" />
+  <circle cx="300" cy="300" r="248" fill="none" stroke="#C4802F" stroke-width="2" stroke-dasharray="7 11" opacity="0.8" />
+  <g transform="translate(300 300) scale(0.78)">
+    <g filter="url(#shadow-s)">
+        <g mask="url(#bite-s)">
+          <path d="M -16.63 -136.99 Q 0 -155 16.63 -136.99 Q 37.09 -150.5 48.94 -129.03 Q 72.03 -137.25 78.39 -113.57 Q 102.78 -116.02 103.29 -91.51 Q 127.56 -88.05 122.19 -64.13 Q 144.93 -54.96 133.99 -33.03 Q 153.87 -18.68 138 0 Q 153.87 18.68 133.99 33.03 Q 144.93 54.96 122.19 64.13 Q 127.56 88.05 103.29 91.51 Q 102.78 116.02 78.39 113.57 Q 72.03 137.25 48.94 129.03 Q 37.09 150.5 16.63 136.99 Q -0 155 -16.63 136.99 Q -37.09 150.5 -48.94 129.03 Q -72.03 137.25 -78.39 113.57 Q -102.78 116.02 -103.29 91.51 Q -127.56 88.05 -122.19 64.13 Q -144.93 54.96 -133.99 33.03 Q -153.87 18.68 -138 0 Q -153.87 -18.68 -133.99 -33.03 Q -144.93 -54.96 -122.19 -64.13 Q -127.56 -88.05 -103.29 -91.51 Q -102.78 -116.02 -78.39 -113.57 Q -72.03 -137.25 -48.94 -129.03 Q -37.09 -150.5 -16.63 -136.99 Z" fill="url(#dough-s)" />
+          <ellipse cx="-46" cy="-58" rx="96" ry="78" fill="url(#sheen-s)" />
+          <g transform="translate(-48 -52) rotate(-18)">
+        <ellipse rx="14" ry="11" fill="url(#chip-s)" />
+        <ellipse cx="-3.92" cy="-3.74" rx="5.88" ry="3.52" fill="#FFFFFF" opacity="0.22" />
+      </g><g transform="translate(43 32) rotate(14)">
+        <ellipse rx="12.5" ry="10" fill="url(#chip-s)" />
+        <ellipse cx="-3.5" cy="-3.4" rx="5.25" ry="3.2" fill="#FFFFFF" opacity="0.22" />
+      </g><g transform="translate(-68 40) rotate(32)">
+        <ellipse rx="11" ry="9" fill="url(#chip-s)" />
+        <ellipse cx="-3.08" cy="-3.06" rx="4.62" ry="2.88" fill="#FFFFFF" opacity="0.22" />
+      </g><g transform="translate(22 -82) rotate(-8)">
+        <ellipse rx="13" ry="10" fill="url(#chip-s)" />
+        <ellipse cx="-3.64" cy="-3.4" rx="5.46" ry="3.2" fill="#FFFFFF" opacity="0.22" />
+      </g><g transform="translate(-32 72) rotate(6)">
+        <ellipse rx="10" ry="8" fill="url(#chip-s)" />
+        <ellipse cx="-2.8" cy="-2.72" rx="4.2" ry="2.56" fill="#FFFFFF" opacity="0.22" />
+      </g><g transform="translate(-92 -14) rotate(44)">
+        <ellipse rx="9.5" ry="8" fill="url(#chip-s)" />
+        <ellipse cx="-2.66" cy="-2.72" rx="3.99" ry="2.56" fill="#FFFFFF" opacity="0.22" />
+      </g><g transform="translate(78 -18) rotate(-34)">
+        <ellipse rx="9" ry="7.5" fill="url(#chip-s)" />
+        <ellipse cx="-2.52" cy="-2.55" rx="3.78" ry="2.4" fill="#FFFFFF" opacity="0.22" />
+      </g>
+        </g>
+      </g>
+      <g fill="#B4762F" opacity="0.8">
+        <circle cx="126" cy="-74" r="4.2" fill="#B4762F" opacity="0.75" />
+      <circle cx="150" cy="-34" r="3.4" fill="#B4762F" opacity="0.75" />
+      <circle cx="104" cy="-116" r="3" fill="#B4762F" opacity="0.75" />
+      <circle cx="156" cy="-66" r="2.4" fill="#B4762F" opacity="0.75" />
+      </g>
+  </g>
+  <text font-family="Georgia, 'Times New Roman', 'Playfair Display', serif" font-size="44" font-weight="bold" letter-spacing="7" fill="#3E2415" text-anchor="middle">
+    <textPath href="#arc-top-s" startOffset="50%">CANTINHO DO</textPath>
+  </text>
+  <text font-family="Georgia, 'Times New Roman', 'Playfair Display', serif" font-size="44" font-weight="bold" letter-spacing="10" fill="#3E2415" text-anchor="middle">
+    <textPath href="#arc-bottom-s" startOffset="50%">COOKIE</textPath>
+  </text>
+  <path d="M 96 312.82 C 79.5 298.57 81 284.32 96 291.45 C 111 284.32 112.5 298.57 96 312.82 Z" fill="#E08B2C" />
+  <path d="M 504 312.82 C 487.5 298.57 489 284.32 504 291.45 C 519 284.32 520.5 298.57 504 312.82 Z" fill="#E08B2C" />
+</svg>
